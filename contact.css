@@ -1,0 +1,14 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20% 10%;
+}
+
+.social-contact-id{
+    display: grid;
+    grid-template-columns: calc(100/4);
+}
+
+.phone-no-text{
+    margin-top:10px;
+}

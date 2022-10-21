@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(244, 209, 244);
+    font-family: 'Ubuntu-Mono', monospace;
+}
+
+header{
+    /* position : fixed; */
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 20rgb(135, 25, 135)px 0 rgba(135, 25, 135, 0.172);
+    font-size: larger;
+}
+
+
+.user-name-nav {
+    display: inline;
+}
+
+nav{
+    float: right;
+}
+
+a,a:visited{
+    color:rgb(135, 25, 135);
+    font-weight: bolder;
+    text-decoration: none;
+    transition: box-shadow .3s ease-in-out, color .3s ease-in-out ;
+}
+
+a:hover{
+    /* color:rgb(244, 209, 244);
+    background-color: black; */
+    box-shadow: inset 100px 0 0 0 rgb(135, 25, 135);
+    color: white;
+}
+
+
+
+li{
+    display: inline;
+    padding: 2px;
+}
+
+.main-content{
+    margin:9%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#main-text{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    transition: color .3s;
+}
+
+/* #main-text:hover{
+    color:white;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2);
+} */
+
+.user-name-main{
+    display: block;
+    font-size:xxx-large;
+    transition: text-decoration .3s , color .3s  ;
+}
+
+.user-text-main{
+    margin-top: 40px;
+    display: block;
+}
+
+#main-content-img{
+    width: 70%;
+    display: block;
+    margin-left:auto;
+}
